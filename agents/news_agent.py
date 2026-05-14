@@ -14,7 +14,7 @@ llm = ChatOpenAI(
 )
 
 search_tool = TavilySearch(
-    max_results=3,
+    max_results=1,
     tavily_api_key=os.environ.get("TAVILY_API_KEY")
 )
 
