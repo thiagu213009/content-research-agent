@@ -1,5 +1,3 @@
-cd ContentResearch
-cat > README.md << 'EOF'
 ---
 title: Content Research Agent
 emoji: 🔬
@@ -21,4 +19,3 @@ AI-powered research agent with 4 different execution patterns.
 
 ## Tech Stack
 - LangGraph, Tavily, GPT-4o-mini, Streamlit, LangSmith
-EOF
